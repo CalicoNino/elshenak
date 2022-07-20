@@ -48,19 +48,29 @@ const SideNavbar = ({ status, handle }) => {
           <div className="py-4 flex-col">
             <ul className="uppercase ">
               <Link href="/">
-                <li className="py-4 text-sm">Home</li>
+                <li onClick={handleSideNav} className="py-4 text-sm">
+                  Home
+                </li>
+              </Link>
+              <Link href="/#about">
+                <li onClick={handleSideNav} className="py-4 text-sm">
+                  About
+                </li>
+              </Link>
+              <Link href="/#skills">
+                <li onClick={handleSideNav} className="py-4 text-sm">
+                  Skills
+                </li>
+              </Link>
+              <Link href="/#projects">
+                <li onClick={handleSideNav} className="py-4 text-sm">
+                  Projects
+                </li>
               </Link>
               <Link href="/">
-                <li className="py-4 text-sm">About</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Skills</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Projects</li>
-              </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Contact</li>
+                <li onClick={handleSideNav} className="py-4 text-sm">
+                  Contact
+                </li>
               </Link>
             </ul>
 
