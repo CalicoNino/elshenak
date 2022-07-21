@@ -29,12 +29,12 @@ jobs:
           cache: "yarn"
           cache-dependency-path: "./portfolio/yarn.lock"
 
-      - name: run npm commands
-          run: | 
-          cd portfolio
-          yarn && CI=true
-          yarn build --if-present
-          yarn export
+      - run: npm ci
+        working-directory: ./portfolio
+      - run: npm run build --if-present
+        working-directory: ./portfolio
+      - run: npm run export
+        working-directory: ./portfolio
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
