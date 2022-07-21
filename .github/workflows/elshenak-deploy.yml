@@ -19,22 +19,24 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - name: Checkout files
-        uses: Bhacaz/checkout-files@v2
-        with:
-          files: portfolio
+      - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - run: npm ci
-      - run: npm run build
-      - run: npm run export
+          cache: "yarn"
+          cache-dependency-path: ./portfolio/yarn.lock
+
+      - name: run npm commands
+          working-directory: portfolio
+          run: | 
+          yarn && CI=true
+          yarn build --if-present
+          yarn export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: portfolio/out
+          FOLDER: ./portfolio/out
