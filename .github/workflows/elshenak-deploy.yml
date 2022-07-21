@@ -30,8 +30,8 @@ jobs:
           cache-dependency-path: "./portfolio/yarn.lock"
 
       - name: run npm commands
-          working-directory: "portfolio"
           run: | 
+          cd portfolio
           yarn && CI=true
           yarn build --if-present
           yarn export
