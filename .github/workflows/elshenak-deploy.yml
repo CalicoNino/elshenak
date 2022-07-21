@@ -12,7 +12,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    defaults:
+      run:
+        working-directory: "portfolio"
     strategy:
       matrix:
         node-version: [16.x]
@@ -25,10 +27,10 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
-          cache-dependency-path: ./portfolio/yarn.lock
+          cache-dependency-path: "./portfolio/yarn.lock"
 
       - name: run npm commands
-          working-directory: portfolio
+          working-directory: "portfolio"
           run: | 
           yarn && CI=true
           yarn build --if-present
@@ -39,4 +41,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: ./portfolio/out
+          FOLDER: "./portfolio/out"
