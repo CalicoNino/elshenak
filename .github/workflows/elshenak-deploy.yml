@@ -22,7 +22,7 @@ jobs:
       - name: Checkout files
         uses: Bhacaz/checkout-files@v2
         with:
-          files: ./portfolio
+          files: portfolio
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
