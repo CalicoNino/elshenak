@@ -19,9 +19,11 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout files
+        uses: Bhacaz/checkout-files@v2
+        with:
+          files: ./portfolio
       - name: Use Node.js ${{ matrix.node-version }}
-        run: cd portfolio
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
