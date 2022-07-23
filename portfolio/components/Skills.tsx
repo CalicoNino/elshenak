@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
 
 const framData = ["React", "Tailwind", "Next", "Vue", "GraphQL"];
@@ -41,13 +41,13 @@ const Skills = () => {
                 className="grid grid-row-2 gap-2 justify-center items-center"
               >
                 <div key={index} className="m-auto">
-                  <Image
+                  {/* <Image
                     key={index}
                     src={`/../public/logos/${item}-logo.png`}
                     width="20px"
                     height="20px"
                     alt={`${item}-logo`}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
@@ -66,13 +66,13 @@ const Skills = () => {
                 className="grid grid-row-2 gap-2 justify-center items-center"
               >
                 <div key={index} className="m-auto">
-                  <Image
+                  {/* <Image
                     key={index}
                     src={`/../public/logos/${item}-logo.png`}
                     width="20px"
                     height="20px"
                     alt={`${item}-logo`}
-                  />
+                  /> */}
                 </div>
               </div>
             </div>

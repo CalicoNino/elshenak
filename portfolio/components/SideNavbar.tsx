@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 const SideNavbar = (props: { status: any; handle: any }) => {
@@ -25,7 +25,7 @@ const SideNavbar = (props: { status: any; handle: any }) => {
       >
         <div>
           <div className="flex w-full items-center justify-between">
-            <Image src="/../public/tmp.png" alt="/" width="87" height="35" />
+            {/* <Image src="/../public/tmp.png" alt="/" width="87" height="35" /> */}
 
             <div
               onClick={handleSideNav}
