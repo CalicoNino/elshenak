@@ -43,7 +43,7 @@ const Skills = () => {
                 <div key={index} className="m-auto">
                   <Image
                     key={index}
-                    src={`/../public/assets/logos/${item}-logo.png`}
+                    src={`/../public/logos/${item}-logo.png`}
                     width="20px"
                     height="20px"
                     alt={`${item}-logo`}
@@ -68,7 +68,7 @@ const Skills = () => {
                 <div key={index} className="m-auto">
                   <Image
                     key={index}
-                    src={`/../public/assets/logos/${item}-logo.png`}
+                    src={`/../public/logos/${item}-logo.png`}
                     width="20px"
                     height="20px"
                     alt={`${item}-logo`}

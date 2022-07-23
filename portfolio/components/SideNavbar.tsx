@@ -5,7 +5,8 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import Image from "next/image";
 import Link from "next/link";
 
-const SideNavbar = ({ status, handle }) => {
+const SideNavbar = (props: { status: any; handle: any }) => {
+  const { status, handle } = props;
   const handleSideNav = () => {
     handle();
   };
@@ -24,12 +25,7 @@ const SideNavbar = ({ status, handle }) => {
       >
         <div>
           <div className="flex w-full items-center justify-between">
-            <Image
-              src="/../public/assets/tmp.png"
-              alt="/"
-              width="87"
-              height="35"
-            />
+            <Image src="/../public/tmp.png" alt="/" width="87" height="35" />
 
             <div
               onClick={handleSideNav}
