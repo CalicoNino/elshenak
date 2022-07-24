@@ -33,8 +33,6 @@ jobs:
         working-directory: "./portfolio"
       - run: yarn build
         working-directory: "./portfolio"
-      - run: yarn export
-        working-directory: "./portfolio"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
