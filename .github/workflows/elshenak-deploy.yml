@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: "with-tailwindcss-app"
+        working-directory: "portfolio"
     strategy:
       matrix:
         node-version: [16.x]
@@ -27,18 +27,18 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "yarn"
-          cache-dependency-path: "./with-tailwindcss-app/yarn.lock"
+          cache-dependency-path: "./portfolio/yarn.lock"
 
       - run: yarn install
-        working-directory: "./with-tailwindcss-app"
+        working-directory: "./portfolio"
       - run: yarn build
-        working-directory: "./with-tailwindcss-app"
+        working-directory: "./portfolio"
       - run: yarn export
-        working-directory: "./with-tailwindcss-app"
+        working-directory: "./portfolio"
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: "./with-tailwindcss-app/out"
+          FOLDER: "./portfolio/out"
