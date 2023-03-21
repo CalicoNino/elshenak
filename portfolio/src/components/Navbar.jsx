@@ -29,11 +29,11 @@ const Navbar = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "| Software Engineer",
-                    "| Frontend Developer",
-                    "| Backend Developer",
-                    "| Cloud Developer",
-                    "| Full Stack Developer",
+                    "| Software Engineer 👨‍💻",
+                    "| Frontend Developer 🖼️",
+                    "| Backend Developer ⚙️",
+                    "| Cloud Developer ☁️",
+                    "| Full Stack Developer 💻",
                   ],
                   autoStart: true,
                   loop: true,

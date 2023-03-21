@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Wave from "./Wave";
 
 const Hero = () => {
   return (
@@ -16,12 +17,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Adrian</span>
+            Hi, I'm <span className="text-[#915EFF]">Karim</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            I suck dick <br className="sm:block hidden" />
+            and watch anime
           </p>
+        </div>
+        <div className="ml-5">
+          <Wave />
         </div>
       </div>
 
