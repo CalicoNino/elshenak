@@ -27,22 +27,16 @@ const Navbar = () => {
             Karim&nbsp;
             <span className="sm:block hidden">
               <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString("| Software Engineer")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("| Frontend Developer")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("| Backend Developer")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("| Cloud Developer")
-                    .pauseFor(1000)
-                    .deleteAll()
-                    .typeString("| Full Stack Developer")
-                    .start();
+                options={{
+                  strings: [
+                    "| Software Engineer",
+                    "| Frontend Developer",
+                    "| Backend Developer",
+                    "| Cloud Developer",
+                    "| Full Stack Developer",
+                  ],
+                  autoStart: true,
+                  loop: true,
                 }}
               />
             </span>
