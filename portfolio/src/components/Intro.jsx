@@ -20,11 +20,11 @@ const Intro = () => {
             Hi, I'm <span className="text-[#915EFF]">Karim</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I suck dick <br className="sm:block hidden" />
-            and watch anime
+            I design and create Software full-time.
+            <br className="sm:block hidden" /> And watch Anime part-time.
           </p>
         </div>
-        <div className="ml-5">
+        <div>
           <Wave />
         </div>
       </div>
