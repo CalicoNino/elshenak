@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Wave from "./Wave";
 
-const Hero = () => {
+const Intro = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -52,4 +52,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Intro;
