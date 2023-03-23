@@ -26,14 +26,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "yarn"
-          cache-dependency-path: "./portfolio/yarn.lock"
+          cache: "npm"
+          cache-dependency-path: "./portfolio/package-lock.json"
 
-      - run: yarn install
+      - run: npm install --legacy-peer-deps
         working-directory: "./portfolio"
-      - run: yarn build
-        working-directory: "./portfolio"
-      - run: touch ./out/.nojekyll
+      - run: npm run build
         working-directory: "./portfolio"
 
       - name: Deploy 🚀
@@ -41,4 +39,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: "./portfolio/out"
+          FOLDER: "./portfolio/dist"
