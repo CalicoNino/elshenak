@@ -203,14 +203,6 @@
   }
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: #1d1e2c;
-}
-
 .wave {
   height: 386px;
   width: 386px;
