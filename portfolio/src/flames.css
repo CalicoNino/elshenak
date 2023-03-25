@@ -41,21 +41,23 @@
   height: 200px;
   overflow: hidden;
   border-radius: 100%;
-  .fire {
-    filter: url(#goo);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  .bottom {
-    position: absolute;
-    left: 50px;
-    bottom: 0;
-    width: 100px;
-    height: 30px;
-    background: #ff9800;
-    border-radius: 30px;
-  }
+}
+
+.pit {
+  position: absolute;
+  left: 50px;
+  bottom: 0;
+  width: 100px;
+  height: 30px;
+  background: #ff9800;
+  border-radius: 30px;
+}
+
+.fire {
+  filter: url(#goo);
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .reverse div {
@@ -73,54 +75,54 @@ $rand: 15 + random(25);
 
 .reverse div:nth-child(1) {
   animation: firereverseleft 1.2s 0.5 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(2) {
   animation: firereverseleft 1.2s 1 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(3) {
   animation: firereverseleft 1.2s 1.5 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(4) {
   animation: firereverseleft 1.2s 2 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(5) {
   left: 120px;
   animation: firereverseright 1.2s 2.5 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(6) {
   left: 120px;
   animation: firereverseright 1.2s 3 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(7) {
   left: 120px;
   animation: firereverseright 1.2s 3.5 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 .reverse div:nth-child(8) {
   left: 120px;
   animation: firereverseright 1.2s 4 cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
-  margin-left: 23px;
-  margin-bottom: -15px;
+  margin-left: random(23) + px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure {
@@ -137,97 +139,97 @@ figure {
 figure:nth-child(1) {
   animation: firecircle 1.2s 0.14s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(2) {
   animation: firecircle 1.2s 0.28s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(3) {
   animation: firecircle 1.2s 0.42s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(4) {
   animation: firecircle 1.2s 0.56s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(5) {
   animation: firecircle 1.2s 0.7s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(6) {
   animation: firecircle 1.2s 0.84s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(7) {
   animation: firecircle 1.2s 0.84s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(8) {
   animation: firecircle 1.2s 0.98s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(9) {
   animation: firecircle 1.2s 1.12s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(10) {
   animation: firecircle 1.2s 1.26s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(11) {
   animation: firecircle 1.2s 1.4s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(12) {
   animation: firecircle 1.2s 1.54s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(13) {
   animation: firecircle 1.2s 1.68s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(14) {
   animation: firecircle 1.2s 1.82s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(15) {
   animation: firecircle 1.2s 1.95s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 figure:nth-child(16) {
   animation: firecircle 1.2s 2.08s cubic-bezier(0.5, 0.07, 0.64, 1) infinite;
   margin-left: random(70) + px;
-  margin-bottom: -15px;
+  margin-bottom: -+ $rand + px;
 }
 
 @keyframes firecircle {

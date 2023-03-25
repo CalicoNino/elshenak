@@ -5,15 +5,16 @@ import { TfiLinkedin, TfiGithub, TfiEmail, TfiReceipt } from "react-icons/tfi";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import Wave from "./Wave";
 
 const ServiceCard = ({ icon, link }) => (
   <Tilt className="w-full xs:w-[125px] h-auto">
     <motion.div
       variants={fadeIn("right", "spring", 3 * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-1 rounded-full shadow-card"
+      className="w-full red-gradient p-1 rounded-full shadow-card"
     >
       <a
-        className="bg-tertiary hover:bg-highlight rounded-full py-5 flex justify-evenly items-center flex-col h-[125px]"
+        className="bg-primary hover:bg-highlight rounded-full py-5 flex justify-evenly items-center flex-col h-[125px]"
         href={link}
         target="_blank"
         rel="noreferrer"
@@ -34,7 +35,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-highlight text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a skilled software developer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
@@ -51,6 +52,10 @@ const About = () => {
         <ServiceCard icon={<TfiGithub />} link="https://github.com/elshenak" />
         <ServiceCard icon={<TfiEmail />} link="mailto:elshenak@gmail.com" />
         <ServiceCard icon={<TfiReceipt />} link="" />
+      </div>
+
+      <div className="flex flex-row items-center justify-center mt-3">
+        <Wave />
       </div>
     </>
   );
