@@ -16,7 +16,7 @@ const Intro = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#F99E4c]">Karim</span>
+            Hi, I'm <span className="text-highlight">Karim</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I design and create Software full-time.
@@ -36,7 +36,7 @@ const Intro = () => {
 
       <div className="z-20 absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#F99E4c] flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-highlight flex justify-center items-start p-2">
             <motion.div
               animate={{
                 y: [0, 24, 0],
@@ -46,7 +46,7 @@ const Intro = () => {
                 repeat: Infinity,
                 repeatType: "loop",
               }}
-              className="w-3 h-3 rounded-full bg-[#F99E4c] mb-1"
+              className="w-3 h-3 rounded-full bg-highlight mb-1"
             />
           </div>
         </a>

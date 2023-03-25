@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className="w-[60%] h-[60%] object-contain"
+            className="h-[80%] w-[80%] object-cpntain rounded-full"
           />
         </div>
       }
@@ -35,7 +35,7 @@ const ExperienceCard = ({ experience }) => {
       <div>
         <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
         <p
-          className="text-secondary text-[16px] font-semibold"
+          className="text-white text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
           {experience.company_name}
