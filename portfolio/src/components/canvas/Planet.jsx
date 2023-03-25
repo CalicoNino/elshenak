@@ -5,10 +5,10 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Planet = () => {
-  const earth = useGLTF("./lava_planet/scene.gltf");
+  const earth = useGLTF("./sun_and_solar_flares/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={1.5} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
 

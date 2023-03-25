@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -12,6 +8,9 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  c,
+  python,
+  golang,
   git,
   figma,
   docker,
@@ -40,26 +39,10 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
 const technologies = [
+  { name: "Python", icon: python },
+  { name: "Go", icon: golang },
+  { name: "C", icon: c },
   {
     name: "HTML 5",
     icon: html,
@@ -262,4 +245,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, testimonials, projects };

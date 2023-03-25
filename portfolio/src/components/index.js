@@ -1,9 +1,4 @@
-import {
-  PlanetCanvas,
-  BallCanvas,
-  ComputersCanvas,
-  StarsCanvas,
-} from "./canvas";
+import { PlanetCanvas, BallCanvas, StarsCanvas } from "./canvas";
 import Intro from "./Intro";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -24,7 +19,6 @@ export {
   Contact,
   PlanetCanvas,
   BallCanvas,
-  ComputersCanvas,
   StarsCanvas,
   Wave,
   Flame,
