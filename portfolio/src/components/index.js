@@ -13,6 +13,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Wave from "./Wave";
+import Flame from "./Flame";
 
 export {
   Intro,
@@ -28,4 +29,5 @@ export {
   ComputersCanvas,
   StarsCanvas,
   Wave,
+  Flame,
 };
