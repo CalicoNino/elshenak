@@ -26,10 +26,8 @@ const Intro = () => {
         </div>
       </div>
 
-      <PlanetCanvas />
-      {/* 
       <Flame />
-      <Flame /> */}
+      <Flame />
 
       <div className="z-20 absolute bottom-60 xs:bottom-10  w-full flex justify-center items-center">
         <a href="#about">
