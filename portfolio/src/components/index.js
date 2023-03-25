@@ -8,6 +8,7 @@ import Works from "./Works";
 import Contact from "./Contact";
 import Wave from "./Wave";
 import Flame from "./Flame";
+import Fire from "./Fire";
 
 export {
   Intro,
@@ -22,4 +23,5 @@ export {
   StarsCanvas,
   Wave,
   Flame,
+  Fire,
 };

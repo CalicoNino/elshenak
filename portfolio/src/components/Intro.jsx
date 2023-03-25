@@ -22,6 +22,15 @@ const Intro = () => {
             I design and create Software full-time.
             <br className="sm:block hidden" /> And watch Anime part-time.
           </p>
+          <div class="cauldron">
+            <div class="cauldron-top"></div>
+            <div class="fire">
+              <div class="fire-red"></div>
+              <div class="fire-orange"></div>
+              <div class="fire-yellow"></div>
+            </div>
+            <div class="cauldron-bottom"></div>
+          </div>
         </div>
       </div>
 

@@ -14,7 +14,7 @@ import {
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
+      <div className="relative z-0 bg-redspace">
         <StarsCanvas />
         <div className="flex flex-col">
           <Navbar />

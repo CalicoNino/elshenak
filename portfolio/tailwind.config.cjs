@@ -9,6 +9,7 @@ module.exports = {
         secondary: "#801336",
         tertiary: "#510a32",
         highlight: "#F99E4c",
+        redspace: "#2d142c",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
