@@ -29,6 +29,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import profile from "./profile.jpeg";
+
 export {
   logo,
   golang,
@@ -57,4 +59,5 @@ export {
   jobit,
   tripguide,
   qnx,
+  profile,
 };

@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import Wave from "./Wave";
 
 const ServiceCard = ({ icon, link }) => (
-  <Tilt className="w-full xs:w-[75px] h-auto">
+  <Tilt className="w-[75px] h-auto">
     <motion.div
       variants={fadeIn("right", "spring", 3 * 0.5, 0.75)}
       className="w-full red-gradient p-1 rounded-full shadow-card border border-redspace"
