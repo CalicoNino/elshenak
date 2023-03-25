@@ -19,9 +19,19 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
   cnrl,
   qnx,
+  apollo,
+  csharp,
+  aws,
+  java,
+  jenkins,
+  latex,
+  postgresql,
+  terraform,
+  vue,
+  reactnative,
+  graphql,
 } from "../assets";
 
 export const navLinks = [
@@ -43,6 +53,8 @@ const technologies = [
   { name: "Python", icon: python },
   { name: "Go", icon: golang },
   { name: "C", icon: c },
+  { name: "Java", icon: java },
+  { name: "C#", icon: csharp },
   {
     name: "HTML 5",
     icon: html,
@@ -68,6 +80,22 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "React Native",
+    icon: reactnative,
+  },
+  {
+    name: "Vue JS",
+    icon: vue,
+  },
+  {
+    name: "GraphQL",
+    icon: graphql,
+  },
+  {
+    name: "Apollo",
+    icon: apollo,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -80,20 +108,36 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+  },
+  {
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
     name: "git",
     icon: git,
   },
   {
+    name: "docker",
+    icon: docker,
+  },
+  {
     name: "figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "latex",
+    icon: latex,
   },
 ];
 

@@ -3,6 +3,17 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import graphql from "./tech/graphql.png";
+import apollo from "./tech/apollo.png";
+import csharp from "./tech/c-sharp.png";
+import aws from "./tech/aws.png";
+import java from "./tech/java.png";
+import jenkins from "./tech/jenkins.png";
+import latex from "./tech/latex.png";
+import postgresql from "./tech/postgresql.png";
+import terraform from "./tech/terraform.png";
+import vue from "./tech/vue.png";
+import reactnative from "./tech/react-native.png";
 import c from "./tech/c.png";
 import golang from "./tech/golang.png";
 import python from "./tech/python.png";
@@ -18,7 +29,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import enlightedinc from "./company/enlightedinc.png";
 import cnrl from "./company/cnrl.png";
@@ -32,6 +42,17 @@ import tripguide from "./tripguide.png";
 import profile from "./profile.jpeg";
 
 export {
+  apollo,
+  aws,
+  csharp,
+  vue,
+  reactnative,
+  terraform,
+  postgresql,
+  latex,
+  jenkins,
+  java,
+  graphql,
   logo,
   golang,
   c,
@@ -51,7 +72,6 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   cnrl,
   blackberry,
   enlightedinc,
