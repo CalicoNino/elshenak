@@ -48,7 +48,12 @@ import heyorwhatever from "./me/heyorwhatever.png";
 import letsdiscuss from "./me/letsdiscuss.png";
 import youthere from "./me/youthere.png";
 
+import discord from "./discord.png";
+import gmail from "./gmail.png";
+
 export {
+  gmail,
+  discord,
   birdonhead,
   heyorwhatever,
   letsdiscuss,

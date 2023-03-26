@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { slideIn, textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { certs } from "../constants";
 
 const Spinner = () => {
@@ -19,7 +19,10 @@ const Certifications = () => {
         <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
       </motion.div>
 
-      <div className="mt-20 flex flex-wrap gap-10 items-center justify-center">
+      <motion.div
+        variants={fadeIn("left", "spring", 3 * 0.5, 0.75)}
+        className="mt-20 flex flex-wrap gap-10 items-center justify-center"
+      >
         {certs.map(({ name, image, loading, url }) => (
           <div className="w-1/3 h-1/3 relative">
             {loading ? (
@@ -37,7 +40,7 @@ const Certifications = () => {
             )}
           </div>
         ))}
-      </div>
+      </motion.div>
     </>
   );
 };

@@ -2,7 +2,6 @@ import React from "react";
 import { styles } from "../styles";
 import { Flame, Fire } from ".";
 import { heyorwhatever } from "../assets";
-import { motion } from "framer-motion";
 
 const Intro = () => {
   return (
@@ -27,7 +26,7 @@ const Intro = () => {
           </div>
         </div>
         <div className="mt-20">
-          <img alt="heyorwhatever" src={heyorwhatever} />
+          <img alt="me" src={heyorwhatever} />
         </div>
       </div>
       <Flame />
