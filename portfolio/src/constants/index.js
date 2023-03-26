@@ -53,34 +53,9 @@ export const navLinks = [
 ];
 
 const technologies = [
-  { name: "Python", icon: python },
-  { name: "Go", icon: golang },
-  { name: "C", icon: c },
-  { name: "Java", icon: java },
-  { name: "C#", icon: csharp },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "React Native",
@@ -134,13 +109,29 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+];
+
+const languages = [
+  { name: "Python", icon: python },
+  { name: "Go", icon: golang },
   {
-    name: "figma",
-    icon: figma,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "latex",
-    icon: latex,
+    name: "TypeScript",
+    icon: typescript,
+  },
+  { name: "C", icon: c },
+  { name: "Java", icon: java },
+  { name: "C#", icon: csharp },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
   },
 ];
 
@@ -278,4 +269,4 @@ const certs = [
   },
 ];
 
-export { certs, technologies, experiences, projects };
+export { certs, technologies, experiences, projects, languages };
