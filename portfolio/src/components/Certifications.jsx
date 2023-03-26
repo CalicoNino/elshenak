@@ -24,7 +24,7 @@ const Certifications = () => {
         className="mt-20 flex flex-wrap gap-10 items-center justify-center"
       >
         {certs.map(({ name, image, loading, url }) => (
-          <div className="w-1/3 h-1/3 relative">
+          <div className="w-1/3 h-1/3 relative" key={name}>
             {loading ? (
               <img alt={name} src={image} className="opacity-25" />
             ) : (

@@ -10,7 +10,7 @@ const Stars = (props) => {
   }
   const ref = useRef();
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
+    random.inSphere(new Float32Array(80000), { radius: 1.2 })
   );
 
   useFrame((state, delta) => {
@@ -24,7 +24,7 @@ const Stars = (props) => {
         <PointMaterial
           transparent
           color="#F99E4c"
-          size={0.005}
+          size={0.001}
           sizeAttenuation={true}
           depthWrite={false}
         />

@@ -28,26 +28,28 @@ const Contact = () => {
         <h2 className={`${styles.sectionHeadText}`}>Contact.</h2>
       </motion.div>
 
-      <div className="mt-10 flex flex-wrap gap-10 items-start justify-center">
-        <ContactList name="calico.nino#6804" image={discord} alt="discord" />
+      <div className="flex flex-col">
+        <div className="mt-10 flex flex-wrap gap-10 items-start justify-center">
+          <ContactList name="calico.nino#6804" image={discord} alt="discord" />
 
-        <ContactList
-          name="elshenak@gmail.com"
-          image={gmail}
-          alt="gmail"
-          link="mailto:elshenak@gmail.com"
-        />
+          <ContactList
+            name="elshenak@gmail.com"
+            image={gmail}
+            alt="gmail"
+            link="mailto:elshenak@gmail.com"
+          />
 
-        <ContactList
-          name="/in/elshenak"
-          image={linkedin}
-          alt="linkedin"
-          link="https://www.linkedin.com/in/elshenak/"
-        />
-      </div>
+          <ContactList
+            name="/in/elshenak"
+            image={linkedin}
+            alt="linkedin"
+            link="https://www.linkedin.com/in/elshenak/"
+          />
+        </div>
 
-      <div className="sticky bottom-0 w-full h-1/3 mt-20">
-        <img alt="birdonhead" src={birdonhead} />
+        <div className="h-1/3">
+          <img alt="birdonhead" src={birdonhead} />
+        </div>
       </div>
     </>
   );

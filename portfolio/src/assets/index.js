@@ -51,8 +51,10 @@ import youthere from "./me/youthere.png";
 import discord from "./discord.png";
 import gmail from "./gmail.png";
 import linkedin from "./linkedin.png";
+import fireSVG from "./fire.svg";
 
 export {
+  fireSVG,
   linkedin,
   gmail,
   discord,

@@ -23,9 +23,9 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <div className="text-white text-[18px] font-bold cursor-pointer flex">
             Karim&nbsp;
-            <span className="sm:block hidden">
+            <div className="sm:block hidden">
               <Typewriter
                 options={{
                   strings: [
@@ -39,8 +39,8 @@ const Navbar = () => {
                   loop: true,
                 }}
               />
-            </span>
-          </p>
+            </div>
+          </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
