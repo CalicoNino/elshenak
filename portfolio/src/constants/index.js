@@ -32,6 +32,9 @@ import {
   vue,
   reactnative,
   graphql,
+  awsCCP,
+  awsSAP,
+  hashicorp,
 } from "../assets";
 
 export const navLinks = [
@@ -42,6 +45,10 @@ export const navLinks = [
   {
     id: "experience",
     title: "Experience",
+  },
+  {
+    id: "certifcations",
+    title: "Certifications",
   },
   {
     id: "contact",
@@ -256,4 +263,23 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, projects };
+const certs = [
+  {
+    name: "AWS CCP",
+    image: awsCCP,
+    url: "https://www.credly.com/badges/a680a28b-7ff9-4f65-b577-0fb76a9a6253",
+  },
+  {
+    name: "Hashicorp",
+    image: hashicorp,
+    url: "https://www.credly.com/badges/bf2c7bc7-f8ba-41e5-80bc-86bc0a6c5aff",
+  },
+  {
+    name: "AWS SAP",
+    image: awsSAP,
+    loading: true,
+    url: "",
+  },
+];
+
+export { certs, technologies, experiences, projects };

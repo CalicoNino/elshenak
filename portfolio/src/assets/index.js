@@ -39,7 +39,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import profile from "./profile.jpeg";
+import awsCCP from "./certs/aws-ccp.png";
+import awsSAP from "./certs/aws-sap.png";
+import hashicorp from "./certs/terraform.png";
 
 export {
   apollo,
@@ -49,7 +51,6 @@ export {
   reactnative,
   terraform,
   postgresql,
-  latex,
   jenkins,
   java,
   graphql,
@@ -79,5 +80,8 @@ export {
   jobit,
   tripguide,
   qnx,
-  profile,
+  latex,
+  awsSAP,
+  awsCCP,
+  hashicorp,
 };

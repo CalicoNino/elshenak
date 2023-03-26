@@ -9,6 +9,7 @@ import Contact from "./Contact";
 import Wave from "./Wave";
 import Flame from "./Flame";
 import Fire from "./Fire";
+import Certifications from "./Certifications";
 
 export {
   Intro,
@@ -16,6 +17,7 @@ export {
   About,
   Tech,
   Experience,
+  Certifications,
   Works,
   Contact,
   PlanetCanvas,
