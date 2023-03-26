@@ -50,8 +50,10 @@ import youthere from "./me/youthere.png";
 
 import discord from "./discord.png";
 import gmail from "./gmail.png";
+import linkedin from "./linkedin.png";
 
 export {
+  linkedin,
   gmail,
   discord,
   birdonhead,
