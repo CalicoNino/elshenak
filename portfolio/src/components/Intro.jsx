@@ -31,6 +31,12 @@ const Intro = () => {
       </div>
       <Flame />
       <Flame />
+
+      <div className="sm:hidden absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <Fire />
+        </a>
+      </div>
     </section>
   );
 };
