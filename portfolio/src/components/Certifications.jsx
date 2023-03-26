@@ -20,7 +20,7 @@ const Certifications = () => {
       </motion.div>
 
       <motion.div
-        variants={fadeIn("left", "spring", 3 * 0.5, 0.75)}
+        variants={fadeIn("left", "spring", 3 * 0.5, 0.25)}
         className="mt-20 flex flex-wrap gap-10 items-center justify-center"
       >
         {certs.map(({ name, image, loading, url }) => (

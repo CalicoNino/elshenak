@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 import { birdonhead, discord, gmail, linkedin } from "../assets";
 
 const ContactList = ({ name, image, alt, link }) => {
@@ -29,7 +29,10 @@ const Contact = () => {
       </motion.div>
 
       <div className="flex flex-col">
-        <div className="mt-10 flex flex-wrap gap-10 items-start justify-center">
+        <motion.div
+          variants={fadeIn("right", "spring", 0.5, 0.25)}
+          className="mt-10 flex flex-wrap gap-10 items-start justify-center"
+        >
           <ContactList name="calico.nino#6804" image={discord} alt="discord" />
 
           <ContactList
@@ -45,7 +48,7 @@ const Contact = () => {
             alt="linkedin"
             link="https://www.linkedin.com/in/elshenak/"
           />
-        </div>
+        </motion.div>
 
         <div className="h-1/3">
           <img alt="birdonhead" src={birdonhead} />
