@@ -58,10 +58,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "React Native",
-    icon: reactnative,
-  },
-  {
     name: "Vue JS",
     icon: vue,
   },
@@ -88,18 +84,6 @@ const technologies = [
   {
     name: "PostgreSQL",
     icon: postgresql,
-  },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "Terraform",
-    icon: terraform,
-  },
-  {
-    name: "Jenkins",
-    icon: jenkins,
   },
   {
     name: "git",
