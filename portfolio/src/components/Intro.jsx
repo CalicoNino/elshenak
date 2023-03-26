@@ -1,11 +1,11 @@
 import React from "react";
 import { styles } from "../styles";
-import { Flame, Fire } from ".";
+import { Fire } from ".";
 import { heyorwhatever } from "../assets";
 
 const Intro = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto mt-40 sm:mt-28 md:mt-20 lg:mt-0">
       <div className="flex flex-row">
         <div
           className={`z-20 max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-center gap-5`}
@@ -29,10 +29,8 @@ const Intro = () => {
           <img alt="me" src={heyorwhatever} />
         </div>
       </div>
-      <Flame />
-      <Flame />
 
-      <div className="sm:hidden absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="sm:hidden absolute bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <Fire />
         </a>

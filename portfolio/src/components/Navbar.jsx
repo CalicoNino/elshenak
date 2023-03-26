@@ -25,15 +25,15 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Karim&nbsp;
-            <span className="sm:block m:block hidden">
+            <span className="sm:block hidden">
               <Typewriter
                 options={{
                   strings: [
-                    "| Software Engineer 👨‍💻",
-                    "| Frontend Developer 🖼️",
-                    "| Backend Developer ⚙️",
-                    "| Cloud Developer ☁️",
-                    "| Full Stack Developer 💻",
+                    "| Software Engineer",
+                    "| Frontend Developer",
+                    "| Backend Developer",
+                    "| Cloud Developer",
+                    "| Full Stack Developer",
                   ],
                   autoStart: true,
                   loop: true,

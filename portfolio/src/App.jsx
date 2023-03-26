@@ -10,13 +10,15 @@ import {
   Works,
   StarsCanvas,
   Certifications,
+  Flame,
 } from "./components";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-redspace">
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
+        <Flame />
         <div className="flex flex-col">
           <Navbar />
           <Intro />
