@@ -43,7 +43,16 @@ import awsCCP from "./certs/aws-ccp.png";
 import awsSAP from "./certs/aws-sap.png";
 import hashicorp from "./certs/terraform.png";
 
+import birdonhead from "./me/birdonhead.png";
+import heyorwhatever from "./me/heyorwhatever.png";
+import letsdiscuss from "./me/letsdiscuss.png";
+import youthere from "./me/youthere.png";
+
 export {
+  birdonhead,
+  heyorwhatever,
+  letsdiscuss,
+  youthere,
   apollo,
   aws,
   csharp,
