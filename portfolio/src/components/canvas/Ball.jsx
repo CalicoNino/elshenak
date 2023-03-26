@@ -10,10 +10,6 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const getRandom = (max) => {
-  return Math.random() * max;
-};
-
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
@@ -29,6 +25,7 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
           roughness={1}
+          anisotropy={16}
         />
         <Decal
           position={[0, 0, 1]}
@@ -48,6 +45,7 @@ const BallCanvas = ({ icon }) => {
       frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
+      pixelRatio={window.devicePixelRatio}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
