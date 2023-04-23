@@ -34,6 +34,7 @@ import enlightedinc from "./company/enlightedinc.png";
 import cnrl from "./company/cnrl.png";
 import blackberry from "./company/blackberry.png";
 import qnx from "./company/qnx.png";
+import inheritchain from "./company/inheritchain.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -94,6 +95,7 @@ export {
   cnrl,
   blackberry,
   enlightedinc,
+  inheritchain,
   carrent,
   jobit,
   tripguide,
