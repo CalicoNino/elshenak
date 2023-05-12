@@ -126,7 +126,7 @@ const experiences = [
     company_name: "InheritChain",
     icon: inheritchain,
     iconBg: "#353535",
-    date: "April 2023 - Present",
+    date: "May 2023 - Present",
     points: [],
   },
   {
