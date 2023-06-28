@@ -123,14 +123,6 @@ const languages = [
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "InheritChain",
-    icon: inheritchain,
-    iconBg: "#353535",
-    date: "May 2023 - Present",
-    points: [],
-  },
-  {
-    title: "Full Stack Developer",
     company_name: "Enlighted Inc | Siemens",
     icon: enlightedinc,
     iconBg: "#F99E4c",
@@ -144,6 +136,14 @@ const experiences = [
       "Developed highly responsive solutions for customer experience, leveraging feature flagging with LaunchDarkly, product insights with Pendo, and blue-green deployment CI/CD.",
       "Created and managed a Co-op program to accelerate hiring within the team and mentored 5 co-op students, providing guidance on technical tasks, communicating expectations, and providing feedback on their work.",
     ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "InheritChain",
+    icon: inheritchain,
+    iconBg: "#353535",
+    date: "May 2023 - June 2023",
+    points: [],
   },
   {
     title: "Security Research Student",
