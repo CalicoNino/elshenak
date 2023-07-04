@@ -36,6 +36,7 @@ import {
   awsSAP,
   hashicorp,
   inheritchain,
+  nibiruchain,
 } from "../assets";
 
 export const navLinks = [
@@ -121,6 +122,22 @@ const languages = [
 ];
 
 const experiences = [
+  {
+    title: "Frontend Engineer",
+    company_name: "Nibiru Chain",
+    icon: nibiruchain,
+    iconBg: "#F99E4c",
+    date: "Jul 2023 - Present",
+    points: [
+      "Developed and launched a highly efficient Hybrid Workplace Assistant solution and full-stack web/mobile application with Slack Chatbot integration using an atomic design system. Leveraged Javascript/Typescript, Vue.js, Tailwind, GraphQL, AWS, Frontegg, Auth0 & OpenAI API to create intuitive, user-friendly applications that drove promising adoption with a quarterly increase of 15% in sign ups & user engagment.",
+      "Architected and created a secure Backend For Frontend (BFF) design pattern using AWS API Gateway & AWS AppSync.",
+      "Designed and implemented a Microservice Backend & an Event-Driven Architecture with a Recommendation Engine using AWS Lambda, EventBridge, DynamoDB & CDK. Reduced application response time by 40%.",
+      "Created a UI component library leveraging Vue.js, Tailwind & Storybook, utilized internally to accelerate software application development.",
+      "Spearheaded migrations from Jenkins/Bitbucket to GitLab CI & Terraform, optimizing CI/CD from an average of 20 mins to 6 mins.",
+      "Developed highly responsive solutions for customer experience, leveraging feature flagging with LaunchDarkly, product insights with Pendo, and blue-green deployment CI/CD.",
+      "Created and managed a Co-op program to accelerate hiring within the team and mentored 5 co-op students, providing guidance on technical tasks, communicating expectations, and providing feedback on their work.",
+    ],
+  },
   {
     title: "Full Stack Developer",
     company_name: "Enlighted Inc | Siemens",
