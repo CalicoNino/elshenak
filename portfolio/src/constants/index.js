@@ -127,7 +127,6 @@ const experiences = [
     company_name: "Nibiru Chain",
     icon: nibiruchain,
     iconBg: "#F99E4c",
-    date: "Jul 2023 - Present",
     points: [
       "Developed and launched a highly efficient Hybrid Workplace Assistant solution and full-stack web/mobile application with Slack Chatbot integration using an atomic design system. Leveraged Javascript/Typescript, Vue.js, Tailwind, GraphQL, AWS, Frontegg, Auth0 & OpenAI API to create intuitive, user-friendly applications that drove promising adoption with a quarterly increase of 15% in sign ups & user engagment.",
       "Architected and created a secure Backend For Frontend (BFF) design pattern using AWS API Gateway & AWS AppSync.",
@@ -143,7 +142,6 @@ const experiences = [
     company_name: "Enlighted Inc | Siemens",
     icon: enlightedinc,
     iconBg: "#F99E4c",
-    date: "Jul 2021 - Present",
     points: [
       "Developed and launched a highly efficient Hybrid Workplace Assistant solution and full-stack web/mobile application with Slack Chatbot integration using an atomic design system. Leveraged Javascript/Typescript, Vue.js, Tailwind, GraphQL, AWS, Frontegg, Auth0 & OpenAI API to create intuitive, user-friendly applications that drove promising adoption with a quarterly increase of 15% in sign ups & user engagment.",
       "Architected and created a secure Backend For Frontend (BFF) design pattern using AWS API Gateway & AWS AppSync.",
@@ -159,7 +157,6 @@ const experiences = [
     company_name: "InheritChain",
     icon: inheritchain,
     iconBg: "#353535",
-    date: "May 2023 - June 2023",
     points: [],
   },
   {
@@ -167,7 +164,6 @@ const experiences = [
     company_name: "Blackberry",
     icon: blackberry,
     iconBg: "#F99E4c",
-    date: "Apr 2020 - Aug 2020",
     points: [
       "Developed a Python exploit for FFMpeg utilizing a variable counter plugin to the LLVM compiler, exploiting the FFMpeg Buffer Overflow Vulnerability CVE-2016-10190. Researched variance in number of variable calls during vulnerable program exploitation.",
       "Conducted a comprehensive security analysis of the tool “Docker Slim” and documented findings in a report posted on the Development Wiki, providing guidance to Blackberry Developers based on research results obtained from analyzing sample dockers.",
@@ -178,7 +174,6 @@ const experiences = [
     company_name: "Blackberry | QNX",
     icon: qnx,
     iconBg: "#F99E4c",
-    date: "Jan 2020 - Apr 2020",
     points: [
       "Developed and executed Python unit test cases using Pytest framework for the core Security features of QNX Operating System, enhancing the reliability of the system utilized in over 150 million vehicles worldwide.",
       "Conducted extensive research to evaluate the benefits of the Cryptography Library OpenSSL over LibTomCrypt, leading to the successful integration of OpenSSL in C-based Security features and resulting in a 25% improvement in system performance.",
@@ -190,7 +185,6 @@ const experiences = [
     company_name: "Canadian Natural Resources Limited",
     icon: cnrl,
     iconBg: "#d8d8d8",
-    date: "May 2019 - Aug 2019",
     points: [
       "Implemented a Phishing Tool that sends fraudulent email campaigns against 15 000 employees as a part of phishing awareness training. Automated results into CSV reports. Built using Python and PHP, utilizing Active Directory and LDAP.",
       "Devised weekly Security Scans using Nessus Professional to ensure CIS compliance and identify vulnerabilities.",
