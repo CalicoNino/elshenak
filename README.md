@@ -1,7 +1,3 @@
-# 💫 About Me:
-
-🔭 I'm currently working on developing a full-stack application using Go & React, which involves integrating various features such as secure authentication, data encryption, and user-friendly interfaces.<br>👯 I'm looking to collaborate and to dicsuss on anime.<br>🤝 I'm looking for help with optimizing my algorithms and models, as well as improving my understanding of advanced statistics, probability theory and cryptography algorithms and protocols.<br>🌱 I'm currently learning about deep learning architectures and neural network ODEs.<br>💬 Ask me about how to use cryptography to secure data transmission and storage, or how to build scalable and robust full-stack applications using Go & React.<br>⚡ Fun fact Attack on Titan & Naruto are my favorite animes.
-
 ## 🌐 Socials:
 
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/calico.nino#6804) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/elshenak)
