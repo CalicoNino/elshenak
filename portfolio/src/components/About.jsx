@@ -57,7 +57,7 @@ const About = () => {
         />
         <ServiceCard icon={<TfiGithub />} link="https://github.com/elshenak" />
         <ServiceCard icon={<TfiEmail />} link="mailto:elshenak@gmail.com" />
-        <ServiceCard icon={<TfiReceipt />} link="/elshenak_resume.pdf" />
+        {/* <ServiceCard icon={<TfiReceipt />} link="/elshenak_resume.pdf" /> */}
       </div>
 
       <div className="flex flex-row items-center justify-center mt-3">
