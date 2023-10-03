@@ -51,10 +51,10 @@ const About = () => {
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 items-center justify-center">
-        <ServiceCard
+        {/* <ServiceCard
           icon={<TfiLinkedin />}
           link="https://www.linkedin.com/in/elshenak"
-        />
+        /> */}
         <ServiceCard icon={<TfiGithub />} link="https://github.com/elshenak" />
         <ServiceCard icon={<TfiEmail />} link="mailto:elshenak@gmail.com" />
         {/* <ServiceCard icon={<TfiReceipt />} link="/elshenak_resume.pdf" /> */}
